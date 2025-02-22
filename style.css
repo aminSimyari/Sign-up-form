@@ -40,3 +40,16 @@ background: linear-gradient(135deg, #71b7e6, #9b59b6);
   border-radius: 5px;
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
+
+.content form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:  space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
