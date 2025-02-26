@@ -124,3 +124,6 @@ form .button input {
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 
+form .button input:hover {
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
