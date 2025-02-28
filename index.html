@@ -44,31 +44,30 @@
         <input type="text" placeholder="Confirm your password" required>
         </div>
       </div>
-      <div class="gender-details"></div>
-      <!-- Radio buttons for gender selection -->
-      <input type="radio" name="gender" id="dot-1"> 
-      <input type="radio" name="gender" id="dot-2"> 
-      <input type="radio" name="gender" id="dot-3"> 
-      <span class="gender-title">Gender</span>
-      <div class="category">
-        <!-- label for male -->
-         <label for="dot-1">
-         <span class="dot one"></span>
-         <span class="gender">Male</span>
-         </label>
-         <!-- label for female -->
-          <label for="dot-2">
-          <span class="dot two"></span>
-          <span class="gender">Female</span>
-          <!-- Label for Prefer not to say -->
-          <label for="dot-3"></label>           
-          <span class="dot three"></span>        
-          <span class="gender">Prefer not to say</span>  
-          </label>           
+        <!-- Radio buttons for gender selection -->
+         <span>Gender</span>
+ 
+      <div class="gender-category">
+        <input type="radio" name="gender" id="gender-male" value="male">
+        <label for="gender-male">
+            <span class="dot"></span>
+            Male
+        </label>
+        <input type="radio" name="gender" id="gender-female" value="female">
+        <label for="gender-female">
+            <span class="dot"></span>
+            Female
+        </label>
+        <input type="radio" name="gender" id="gender-other" value="other">
+        <label for="gender-other">
+            <span class="dot"></span>
+            Other
+        </label>
+    </div>
+    <!-- button -->
+            <div class="button">
+              <input type="submit" value="Register">
             </div>
-          </div>
-          <div class="button">
-            <input type="submit" value="Register">
           </div>
           </form>
              </div>
